@@ -1,0 +1,50 @@
+[20-Dec-2024 07:08:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/asifbdxy/mypastpapers.co.uk/core/vendor/composer/platform_check.php on line 24
+[20-Dec-2024 07:08:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.31. in /home/asifbdxy/mypastpapers.co.uk/core/vendor/composer/platform_check.php on line 24
+[21-Dec-2024 05:58:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:264
+Stack trace:
+#0 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt()
+#1 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#2 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#3 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#4 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#5 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#6 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#7 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#8 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(142): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#9 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(74): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException()
+#10 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(644): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render()
+#11 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(618): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony()
+#12 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(599): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#13 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(578): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#14 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#15 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#16 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#17 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#18 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#20 {main}
+  thrown in /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 264
+[21-Dec-2024 06:00:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\ErrorHandler\ErrorRenderer\highlight_file() in /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php:264
+Stack trace:
+#0 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/trace.html.php(36): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->fileExcerpt()
+#1 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#2 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/traces.html.php(48): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#3 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#4 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/exception.html.php(54): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#5 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#6 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/Resources/views/exception_full.html.php(35): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#7 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(342): include('/home/asifbdxy/...')
+#8 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(142): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->include()
+#9 /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php(74): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->renderException()
+#10 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(644): Symfony\Component\ErrorHandler\ErrorRenderer\HtmlErrorRenderer->render()
+#11 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(618): Illuminate\Foundation\Exceptions\Handler->renderExceptionWithSymfony()
+#12 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(599): Illuminate\Foundation\Exceptions\Handler->renderExceptionContent()
+#13 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(578): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#14 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#15 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#16 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#17 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#18 /home/asifbdxy/mypastpapers.co.uk/core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#19 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#20 {main}
+  thrown in /home/asifbdxy/mypastpapers.co.uk/core/vendor/symfony/error-handler/ErrorRenderer/HtmlErrorRenderer.php on line 264
