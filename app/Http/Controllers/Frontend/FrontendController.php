@@ -35,7 +35,7 @@ class FrontendController extends Controller
     public function blogsDetails($slug){
 
         $data=DB::table('blogs')->where('slug',$slug)->first();
-         $allCategory=DB::table('categories')->select(['name','id'])->get();
+         $allCategory=DB::table('blogs_category')->select(['name','id'])->get();
         $allTags=DB::table('blog_tags')->select(['name','id'])->get();
         $mostViewPost=DB::table('blogs')->orderBy('view','DESC')->limit(5)->where('is_deleted',0)->where('status',1)->select(['title','created_at','slug','category_id','id','image','tag'])->get();
         return view('frontend.blogs.details',compact('data','allCategory','mostViewPost','allTags'));

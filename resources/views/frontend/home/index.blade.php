@@ -260,7 +260,7 @@
     </div>
 </div>
 
-  <div class="client-area pd-bottom-90">
+  <!-- <div class="client-area pd-bottom-90">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-md-2 col-sm-6 align-self-center">
@@ -273,7 +273,7 @@
                       <img src="{{asset('frontend')}}/board/OCR.png" alt="img">
                   </div>
               </div>
-        
+
               <div class="col-md-2 col-sm-6 align-self-center">
                   <div class="client-thumb text-center">
                       <img src="{{asset('frontend')}}/board/Edexcel.png" alt="img">
@@ -286,6 +286,6 @@
             </div>
           </div>
       </div>
-  </div>
+  </div> -->
   <!--client-area end-->
 @endsection

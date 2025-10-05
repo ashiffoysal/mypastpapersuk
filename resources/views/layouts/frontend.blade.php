@@ -98,8 +98,10 @@
 
                         </li>
                         <li class=" current-menu-item">
+                            <a href="{{ url('pastpaper') }}"> Books</a>
+                        </li>
+                        <li class=" current-menu-item">
                             <a href="{{ url('pastpaper') }}">Past Paper</a>
-
                         </li>
                           <li class=" current-menu-item">
                             <a href="{{ url('blogs') }}">Blogs</a>

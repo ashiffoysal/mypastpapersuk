@@ -10,7 +10,7 @@
                         <ul class="details">
                             <li>At PastPaperUK, we believe that success is built on preparation, and preparation begins with the right resources. Our mission is to empower students by providing easy access to past exam papers from the most trusted UK exam boards.</li>
                         </ul>
-                        <ul class="social-media-2">
+                        <!-- <ul class="social-media-2">
                             <li><strong>Follow Us :</strong> </li>
                             <li>
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -24,7 +24,7 @@
                             <li>
                                 <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
@@ -41,10 +41,10 @@
                     <div class="widget widget_nav_menu">
                         <h4 class="widget-title">Exams Type</h4>
                         <ul>
-                            <li><a href="{{ url('pastpaper/subjects/a-levels') }}">A Level</a></li>
-                            <li><a href="{{ url('pastpaper/subjects/as-level') }}">AS Level</a></li>
-                            <li><a href="{{ url('pastpaper/subjects/gcse') }}">GCSE </a></li>
-                            <li><a href="{{ url('pastpaper/subjects/igcse') }}">IGCSE</a></li>
+                            <li><a href="{{ url('pastpaper/subjects/a-levels') }}">All A Level Papers</a></li>
+                            <li><a href="{{ url('pastpaper/subjects/as-level') }}">All AS Level Papers</a></li>
+                            <li><a href="{{ url('pastpaper/subjects/gcse') }}">All GCSE Papers</a></li>
+                            <li><a href="{{ url('pastpaper/subjects/igcse') }}">All IGCSE Papers</a></li>
 
 
                         </ul>

@@ -24,7 +24,7 @@
             <div class="col-lg-6">
                 <div class="bg-red border-radius-8 border-top-0 bt-0 p-lg-5 p-4 mb-4" @if($key==1) style="background:#559823 !important" @endif @if($key==2) style="background:#982392!important" @endif  @if($key==3) style="background:#308bd9!important" @endif >
                     <div class="section-title style-white mb-0">
-                        <h4 class="title">{{$category->category_name}}</h4>
+                        <h4 class="title">All {{$category->category_name}} Past Papers</h4>
                         {{-- <p class="content">You can start and finish one of these popular courses in under a day - for free! Check out the list below.. </p> --}}
                         <a class="btn btn-border-white" href="{{ url('pastpaper/subjects/'.$category->slug) }}">Click Here</a>
                     </div>

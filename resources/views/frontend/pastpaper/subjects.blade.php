@@ -30,7 +30,7 @@
                 <div class="col-lg-4">
                     <div class="border-radius-8 border-top-0 bt-0 p-lg-5 p-4 mb-4" style="background:{{ $randomColor }} !important">
                         <div class="section-title style-white mb-0">
-                            <h4 class="title">{{ $subCategory->subcategory_name }}</h4>
+                            <h4 class="title">{{ $subCategory->subcategory_name }}  Past Papers</h4>
                             <a class="btn btn-border-white" href="{{ url('pastpaper/board/'.$subCategory->id) }}">Click Here</a>
                         </div>
                     </div>
